@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-	--primary-color: #FF69B4;
+	--primary-color: #050505;
 	--background-color: #f9f5f0;
 	--dark-color: #151515;
 }
@@ -72,7 +72,7 @@ html {
 
 .container-logo h1 a {
 	text-decoration: none;
-	color: #000;
+	color: #a56b0d;
 	font-size: 3rem;
 	text-transform: uppercase;
 	letter-spacing: -1px;
@@ -88,7 +88,7 @@ html {
 	font-size: 3rem;
 	color: var(--primary-color);
 	padding-right: 2.5rem;
-	border-right: 1px solid #e2e2e2;
+	border-right: 1px solid #a56b0d;
 }
 
 .container-user .fa-basket-shopping {
@@ -140,7 +140,7 @@ html {
 	content: '';
 	width: 1.5rem;
 	height: 1px;
-	background-color: #fff;
+	background-color: #a56b0d;
 	position: absolute;
 	bottom: -3px;
 	left: 50%;
@@ -154,14 +154,14 @@ html {
 }
 
 .menu a:hover {
-	color: #fff;
+	color: #a56b0d;
 }
 
 .search-form {
 	position: relative;
 	display: flex;
 	align-items: center;
-	border: 2px solid #fff;
+	border: 2px solid #a56b0d;
 	border-radius: 2rem;
 	background-color: #fff;
 	height: 4.4rem;
@@ -175,7 +175,7 @@ html {
 	width: 25rem;
 	font-size: 1.4rem;
 	padding: 0 2rem;
-	color: #777;
+	color: #a56b0d;
 	cursor: pointer;
 }
 
@@ -195,7 +195,7 @@ html {
 
 .btn-search i {
 	font-size: 2rem;
-	color: #fff;
+	color: #a56b0d;
 }
 
 /* ********************************** */
@@ -203,7 +203,7 @@ html {
 /* ********************************** */
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
-		url('img/pepe.jpg');
+		url('img/mostera.jpg');
 	height: 60rem;
 	background-size: cover;
 	background-position: center;
@@ -319,7 +319,7 @@ html {
 
 .category-moca {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/cactus.jpg');
+		url('img/suculentas.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -327,7 +327,7 @@ html {
 
 .category-capuchino {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/bonsai.jpg');
+		url('img/caja_de_flores.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -335,7 +335,7 @@ html {
 
 .category-expreso {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/expreso-category.jpg');
+		url('img/arreglo_floral.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
